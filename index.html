@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isaac Assistant</title>
+</head>
+<body>
+    <h1>Isaac Assistant</h1>
+    <form method="POST" action="/ask">
+        <label for="user_input">You:</label>
+        <input type="text" name="user_input" id="user_input">
+        <input type="submit" value="Ask">
+    </form>
+    <div>
+        <p>Isaac's Response:</p>
+        <p>{{ response }}</p>
+    </div>
+</body>
+</html>
